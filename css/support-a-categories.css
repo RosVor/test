@@ -1,8 +1,33 @@
 .list {
     list-style: none;
+    padding: 0;
 }
 .categories-list{
-    width: 328px;
-    overflow-y:scroll; 
-    max-height: auto;
+    margin: 40px 68px 86px 24px;
+    padding-right: 20px;
+    width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+} 
+.categories-item:not(:first-child){
+    margin-top: 32px;
+  }
+.categories-text{
+    width: 318px;
+    line-height: 24px;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+}
+.categories-text:is(:hover, :focus) {
+    color: violet;
+    font-weight: 700;
+  }
+  
+.categories-text:is(:hover, :active) {
+    color: violet;
+    font-weight: 700;
+  }
+.support-icon{
+    vertical-align: middle;
 }
