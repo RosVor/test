@@ -1,0 +1,8 @@
+list {
+    list-style: none;
+}
+.categories-list{
+    width: 328px;
+    overflow-y:scroll; 
+    height:400px;
+}

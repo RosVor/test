@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-5" viewBox="0 0 87 32">
+      <path d="M4.655 2.327h77.382v27.345H4.655V2.327z"/>
+    </symbol>
+    <symbol id="icon-4" viewBox="0 0 87 32">
+      <path d="M5.818 5.818h75.055v20.364H5.818V5.818z"/>
+    </symbol>
+    <symbol id="icon-3" viewBox="0 0 87 32">
+      <path d="M0 11.636h86.691v8.727H0v-8.727z"/>
+    </symbol>
+    <symbol id="icon-2" viewBox="0 0 87 32">
+      <path d="M16.873 2.909h52.364v26.182H16.873V2.909z"/>
+    </symbol>
+    <symbol id="icon-1" viewBox="0 0 87 32">
+      <path d="M0 6.4h86.691v19.2H0V6.4z"/>
+    </symbol>
+    <symbol id="icon-9" viewBox="0 0 87 32">
+      <path d="M9.309 4.655h68.073v22.691H9.309V4.655z"/>
+    </symbol>
+    <symbol id="icon-8" viewBox="0 0 87 32">
+      <path d="M19.2 4.655h47.127v22.691H19.2V4.655z"/>
+    </symbol>
+    <symbol id="icon-7" viewBox="0 0 87 32">
+      <path d="M22.109 1.745h45.382v28.509H22.109V1.745z"/>
+    </symbol>
+    <symbol id="icon-6" viewBox="0 0 87 32">
+      <path d="M12.8 5.818h61.091v20.364H12.8V5.818z"/>
+    </symbol>
+  </defs>
+</svg>
