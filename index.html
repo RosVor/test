@@ -41,11 +41,11 @@
             </ul>
   </div>
   <div class="support-container">
-    <h2>Support Ukraine</h2>
+    <h2 class="support-title">Support Ukraine</h2>
     <ul class="support-list list">
         <li class="support-item">
             01<svg width="149px" height="55px" class="support-icon">
-                <use href="./img/1.svg"></use>
+                <use xlink:href="./img/1.svg"></use>
                </svg>
         </li>
         <li class="support-item">
@@ -89,8 +89,26 @@
                </svg>
         </li>
     </ul>
+    <svg width="38px" height="38px" class="slider-icon" id="sliderIcon">
+        <use href="./img/slider.svg"></use>
+       </svg>
   </div>
 </section>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const supportList = document.querySelector('.support-list');
+        const supportItems = supportList.querySelectorAll('.support-item');
+        const sliderIcon = document.getElementById('sliderIcon');
+    
+        sliderIcon.addEventListener('click', () => {
+            for (let i = 0; i < 3; i++) {
+                const newItem = supportItems[i + 6].cloneNode(true);
+                supportList.removeChild(supportItems[i]);
+                supportList.insertBefore(newItem, supportItems[i]);
+            }
+        });
+    });
+    </script>    
 </body>
 
 </html>
