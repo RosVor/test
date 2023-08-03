@@ -2,6 +2,10 @@
 .list {
     list-style: none;
     padding: 0;
+    margin: 0;
+}
+.link {
+  text-decoration: none;
 }
 .categories-list{
     margin: 40px 68px 86px 24px;
@@ -22,6 +26,10 @@
     font-size: 18px;
     font-weight: 400;
 }
+.current {
+  color: violet;
+  font-weight: 700;
+}
 .categories-text:is(:hover, :focus) {
     color: violet;
     font-weight: 700;
@@ -39,9 +47,22 @@
     border-radius: 16px;
     background-color: aqua;
   }
+.support-row-lists {
+  margin-left: 40px
+}
+.support-additional-list {
+    display: none; 
+    list-style: none;
+    padding: 0;
+}
 .support-title{
     margin: 0;
+    padding: 24px 108px 40px 40px;
 }
+
 .support-icon{
     vertical-align: middle;
+}
+.slider-icon {
+  margin-top: 24px;
 }
