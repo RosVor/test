@@ -12,10 +12,10 @@
     <div class="categories-container container">
             <ul class="categories-list list">
                 <li class="categories-item">
-                    <a class="categories-text">All categories</a>
+                    <a href="./index.html" class="categories-text link">All categories</a>
                 </li>
                 <li class="categories-item">
-                    <a class="categories-text">Combined Print and E-book Fiction</a>
+                    <a href="./support.html" class="categories-text link">Combined Print and E-book Fiction</a>
                 </li>
                 <li class="categories-item">
                     <a class="categories-text">Combined Print & E-book Nonfiction</a>
@@ -94,6 +94,27 @@
        </svg>
   </div>
 </section>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const sliderIcon = document.getElementById('sliderIcon');
+        const supportList = document.querySelector('.support-list');
+        const additionalSupportList = document.querySelector('.support-additional-list'); 
+    
+        let additionalSupportVisible = false; 
+    
+        sliderIcon.addEventListener('click', () => {
+            if (additionalSupportVisible) {
+                supportList.style.display = 'block';
+                additionalSupportList.style.display = 'none';
+            } else {
+                supportList.style.display = 'none';
+                additionalSupportList.style.display = 'block';
+            }
+            
+            additionalSupportVisible = !additionalSupportVisible;
+        });
+    });
+    </script>
 </body>
 
 </html>

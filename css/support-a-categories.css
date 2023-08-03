@@ -1,4 +1,6 @@
-
+a{
+  text-decoration: none;
+}
 .list {
     list-style: none;
     padding: 0;
@@ -47,6 +49,23 @@
     border-radius: 16px;
     background-color: aqua;
   }
+.support-row-title{
+  display: flex;
+  margin: 0;
+  padding: 24px 108px 40px 40px;
+}
+.support-title{
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+}
+.support-title-icon {
+  margin-left: 12px;
+  vertical-align: middle;
+  fill: darkorange;
+  stroke: darkorange;
+}
 .support-row-lists {
   margin-left: 40px
 }
@@ -55,14 +74,14 @@
     list-style: none;
     padding: 0;
 }
-.support-title{
-    margin: 0;
-    padding: 24px 108px 40px 40px;
-}
 
 .support-icon{
+    width: 149px; 
+    height: 55px;
+    margin-left: 16px;
     vertical-align: middle;
+    fill: red;
 }
 .slider-icon {
-  margin-top: 24px;
+  margin-bottom: 24px;
 }
